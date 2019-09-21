@@ -12,7 +12,6 @@ def index():
 @app.route('/texttospeech/' , methods = ['PUT'])
 def texttospeech():
 	if request.method == 'PUT':
-		filename = images.save(request.file['img1'])
 		return filename
 
 if __name__ == '__main__':
