@@ -12,7 +12,7 @@ def index():
 @app.route('/texttospeech/' , methods = ['PUT'])
 def texttospeech():
 	if request.method == 'PUT':
-		return filename
+		return "cool"
 
 if __name__ == '__main__':
 	app.run()
