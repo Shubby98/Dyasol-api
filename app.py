@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "Welcome to our API" 
+	return "Welcome t API" 
 """
 @app.route('/texttospeech/' , methods = ['PUT'])
 def texttospeech():
