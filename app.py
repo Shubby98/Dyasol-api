@@ -17,4 +17,4 @@ def texttospeech():
 """
 
 if __name__ == '__main__':
-	app.run(port =  7000 , debug = True ,use_reloader = True)
+	app.run(port =  33507 , debug = True ,use_reloader = True)
